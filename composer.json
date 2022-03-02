@@ -1,0 +1,19 @@
+{
+    "name": "vendor/aurora-client-php",
+    "description": "this package is prepared for sending request to aurora",
+    "autoload": {
+        "psr-4": {
+            "fy403\\auroraClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fy403",
+            "email": "1766056726@qq.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=7.0"
+    }
+}
