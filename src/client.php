@@ -1,6 +1,8 @@
-namespace fy403/auroraclientphp
+<?php
+namespace fy403\auroraclientphp;
 
-class Test {
+class Test 
+{
     public function __construct()
     {
     }
