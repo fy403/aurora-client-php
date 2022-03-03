@@ -10,7 +10,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "fy403\\auroraclientphp\\": "src/"
+            "fy403\\aurora\\": "src/"
         }
     },
     "require": {

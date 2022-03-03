@@ -10,3 +10,8 @@
         }
     ],
 ```
+
+# use fy403/auroraclientphp/Client;
+# $client = new Client(...);
+# #Client->Init(...);
+# $centerResponse = $client->SendSync($centerRequest);

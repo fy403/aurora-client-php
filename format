@@ -1,0 +1,120 @@
+class fy403\aurora\Ret#32 (2) {
+  public $Result =>
+  class fy403\aurora\CenterResponse#31 (6) {
+    public $UUID =>
+    string(36) "4a3d3b7e-1666-4440-a99c-922b7c2de4e0"
+    public $User =>
+    string(5) "admin"
+    public $BatchID =>
+    string(36) "5176c2c0-dfce-4885-bec2-340f8b886e61"
+    public $Timestamp =>
+    int(1646301182)
+    public $TaskType =>
+    string(5) "chain"
+    public $TaskResponses =>
+    array(1) {
+      [0] =>
+      class stdClass#19 (3) {
+        public $Results =>
+        array(1) {
+          [0] =>
+          int(68)
+        }
+        public $Signatures =>
+        array(4) {
+          [0] =>
+          class stdClass#20 (19) {
+            ...
+          }
+          [1] =>
+          class stdClass#23 (19) {
+            ...
+          }
+          [2] =>
+          class stdClass#26 (19) {
+            ...
+          }
+          [3] =>
+          class stdClass#29 (19) {
+            ...
+          }
+        }
+        public $CallBack =>
+        NULL
+      }
+    }
+  }
+  public $Error =>
+  bool(false)
+}
+
+class fy403\aurora\Ret#32 (2) {
+  public $Result =>
+  class fy403\aurora\CenterResponse#31 (6) {
+    public $UUID =>
+    string(36) "87a5a619-535a-4c2b-841c-bf4814cc1b18"
+    public $User =>
+    string(5) "admin"
+    public $BatchID =>
+    string(36) "b39b21f0-f6fb-4ed6-bebe-ccfe70cb866f"
+    public $Timestamp =>
+    int(1646301155)
+    public $TaskType =>
+    string(5) "group"
+    public $TaskResponses =>
+    array(3) {
+      [0] =>
+      class stdClass#19 (3) {
+        public $Results =>
+        array(1) {
+          [0] =>
+          int(2)
+        }
+        public $Signatures =>
+        array(1) {
+          [0] =>
+          class stdClass#20 (19) {
+            ...
+          }
+        }
+        public $CallBack =>
+        NULL
+      }
+      [1] =>
+      class stdClass#23 (3) {
+        public $Results =>
+        array(1) {
+          [0] =>
+          int(4)
+        }
+        public $Signatures =>
+        array(1) {
+          [0] =>
+          class stdClass#24 (19) {
+            ...
+          }
+        }
+        public $CallBack =>
+        NULL
+      }
+      [2] =>
+      class stdClass#27 (3) {
+        public $Results =>
+        array(1) {
+          int(11)
+        }
+        public $Signatures =>
+        array(1) {
+          [0] =>
+          class stdClass#28 (19) {
+            ...
+          }
+        }
+        public $CallBack =>
+        NULL
+      }
+    }
+  }
+  public $Error =>
+  bool(false)
+}
