@@ -4,15 +4,15 @@ namespace fy403\aurora;
 
 class Client
 {
-    private $loginUrl;
-    private $tasksUrl;
-    private $touchUrl;
-    private $AuthRequest;
-    private $requester;
-    private $sleepDuration;
-    private $taskTimeoutDuration;
-    private $taskSleepDuration;
-    private $taskSendConcurrency;
+    public $loginUrl;
+    public $tasksUrl;
+    public $touchUrl;
+    public $AuthRequest;
+    public $requester;
+    public $sleepDuration = 2;
+    public $taskTimeoutDuration = 1600;
+    public $taskSleepDuration = 50;
+    public $taskSendConcurrency = 5;
 
     public function __construct($loginUrl, $tasksUrl, $touchUrl, $sleepDuration = 2, $taskTimeoutDuration = 1600, $taskSleepDuration = 50, $taskSendConcurrency = 5)
     {
